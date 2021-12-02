@@ -25,10 +25,10 @@ elif [ "$1" = "stop" ]; then
   docker-compose down
 
 elif [ "$1" = "build" ]; then
-  echo "@@@ building app ..."
-  docker-compose -f docker-compose.yml build
+#  echo "@@@ building app ..."
+#  docker-compose -f docker-compose.yml build
 
-  chmod +x "${BUILD_DIR}"/npm.sh
+#  chmod +x "${BUILD_DIR}"/npm.sh
   "${BUILD_DIR}"/npm.sh install
 
 elif [ "$1" = "test" ]; then

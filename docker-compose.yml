@@ -1,22 +1,22 @@
-#version: "3.8"
-#services:
-#  node:
-#    build:
-#      context: .
-#      dockerfile: Dockerfile
-#    command: npm run start:debug
-#    container_name: portfolio
-#    ports:
-#      - 3000:3000
-#      - 9229:9229
-#    networks:
-#      - portfolio-network
-#    working_dir: /app
-#    volumes:
-#      - .:/app
-##    mem_limit: 512m
-##    memswap_limit: 512m
-#    restart: unless-stopped
-#
-#networks:
-#  portfolio-network:
+version: "3.8"
+services:
+  react:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: npm run dev
+    container_name: portfolio
+    ports:
+      - 3000:3000
+      - 9229:9229
+    networks:
+      - portfolio-network
+    working_dir: /app
+    volumes:
+      - .:/app
+#    mem_limit: 512m
+#    memswap_limit: 512m
+    restart: unless-stopped
+
+networks:
+  portfolio-network:
