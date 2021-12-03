@@ -17,6 +17,6 @@ ENV NODE_ENV=development
 
 WORKDIR /app
 
-RUN npm install -g npm@8.1.4
+RUN npm install -g npm@8.2.0
 
 CMD [ "sh" ]
