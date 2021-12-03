@@ -10,10 +10,9 @@ export default function Overview() {
 }
 
 Overview.getLayout = function getLayout(page) {
-  return (
-      <Layout>
-        {page}
-        <Navbar />
-      </Layout>
-  )
+    return (
+        <Layout>
+            {page}
+        </Layout>
+    )
 }
