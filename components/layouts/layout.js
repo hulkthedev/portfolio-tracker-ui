@@ -1,6 +1,6 @@
-import Head from 'next/head'
+import Head from 'next/head';
 import Navbar from "../navigation/navbar";
-import styles from './layout.module.css'
+import styles from './layout.module.css';
 
 export default function Layout({ children }) {
     return (
@@ -15,5 +15,5 @@ export default function Layout({ children }) {
 
             <Navbar />
         </>
-    )
+    );
 }

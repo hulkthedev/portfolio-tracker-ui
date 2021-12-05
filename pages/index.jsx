@@ -3,7 +3,7 @@ export default function Index() {
         <section>
             <h2>Redirect to Login / Overview Page</h2>
         </section>
-    )
+    );
 }
 
 export async function getStaticProps(context) {
@@ -28,11 +28,11 @@ export async function getStaticProps(context) {
                 destination: '/login',
                 permanent: false,
             },
-        }
+        };
     }
 
 
     return {
         props: { data }, // will be passed to the page component as props
-    }
+    };
 }

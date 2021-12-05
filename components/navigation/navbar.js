@@ -3,7 +3,7 @@ import styles from './navbar.module.css'
 
 export default function Navbar() {
     return (
-        <nav className={styles.nav}>
+        <div>
             <input className={styles.input} placeholder="Search..." />
             <Link href="/">
                 <a>Overview</a>
@@ -14,6 +14,6 @@ export default function Navbar() {
             <Link href="/account">
                 <a>Settings</a>
             </Link>
-        </nav>
+        </div>
     )
 }

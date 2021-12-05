@@ -6,5 +6,5 @@ export default function Signup() {
             <input type="text" />
             <input type="password" />
         </div>
-    )
+    );
 }
