@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import React from "react";
 import styles from './defaultLayout.module.css';
+import variables from '../../public/styles/variables.module.scss';
 
 export default function DefaultLayout({ children }) {
     return (
@@ -15,6 +16,8 @@ export default function DefaultLayout({ children }) {
 
             <main className={ styles.main }>
                 { children }
+
+                <div color={variables.primaryColor}></div>
             </main>
         </>
     );
