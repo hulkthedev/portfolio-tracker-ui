@@ -15,5 +15,5 @@ export default function Navbar() {
                 <a>Settings</a>
             </Link>
         </div>
-    )
+    );
 }

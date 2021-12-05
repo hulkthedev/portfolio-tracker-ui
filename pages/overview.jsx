@@ -1,4 +1,4 @@
-import Layout from '../components/layouts/layout';
+import AppLayout from '../components/layouts/appLayout';
 
 export default function Overview() {
     return (
@@ -10,8 +10,8 @@ export default function Overview() {
 
 Overview.getLayout = function getLayout(page) {
     return (
-        <Layout>
+        <AppLayout>
             { page }
-        </Layout>
-    )
+        </AppLayout>
+    );
 };

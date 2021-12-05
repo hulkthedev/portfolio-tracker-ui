@@ -1,19 +1,16 @@
 import Head from 'next/head';
-import Navbar from "../navigation/navbar";
-import styles from './layout.module.css';
+import styles from './defaultLayout.module.css';
 
-export default function Layout({ children }) {
+export default function DefaultLayout({ children }) {
     return (
         <>
             <Head>
-                <title>Layouts Example</title>
+                <title>Portfolio Tracker</title>
             </Head>
 
             <main className={styles.main}>
                 {children}
             </main>
-
-            <Navbar />
         </>
     );
 }
