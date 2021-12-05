@@ -17,8 +17,9 @@ ENV NODE_ENV=development
 
 WORKDIR /app
 
-RUN npm install -g npm@8.2.0
-RUN npm install sass
-RUN npm install normalize.css
+RUN npm install \
+    -g npm@8.2.0 \
+    sass \
+    normalize.css
 
 CMD [ "sh" ]
