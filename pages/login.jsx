@@ -10,7 +10,26 @@ export default function Login() {
                 <title>Login</title>
             </Head>
 
-            <section>
+
+            <section >
+                <div className="ui equal width grid">
+                    <div className="column">
+                        <div className="ui segment">
+                            1
+                        </div>
+                    </div>
+                    <div className="eight wide column">
+                        <div className="ui segment">
+                            2
+                        </div>
+                    </div>
+                    <div className="column">
+                        <div className="ui segment">
+                            3
+                        </div>
+                    </div>
+                </div>
+
                 <h2>Login Page</h2>
                 <Signup />
             </section>

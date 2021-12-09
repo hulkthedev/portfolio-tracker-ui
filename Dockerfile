@@ -20,6 +20,7 @@ WORKDIR /app
 RUN npm install \
     -g npm@8.2.0 \
     sass \
-    normalize.css
+    normalize.css \
+    semantic-ui
 
 CMD [ "sh" ]
