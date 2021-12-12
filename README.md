@@ -12,6 +12,8 @@ React based Portfolio Tracker UI
 ##### build
 ```bash
 chmod +x build/app.sh
+chmod +x build/npm.sh
+
 ./build/app.sh build
 ```
 

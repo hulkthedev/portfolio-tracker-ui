@@ -8,12 +8,13 @@
     "start": "node_modules/.bin/next start"
   },
   "dependencies": {
+    "fomantic-ui-sass": "^2.7.80008",
+    "jquery": "^3.6.0",
     "next": "latest",
     "normalize.css": "^8.0.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "sass": "^1.44.0",
-    "semantic-ui-css": "^2.4.1",
     "uikit": "^3.9.4"
   }
 }
